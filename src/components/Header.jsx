@@ -4,11 +4,6 @@ export const Header = ({ show, setShow }) => {
   return (
     <div className="flex justify-between items-center w-full p-4 border-b border-gray-400">
       <div className="flex items-center space-x-3 rtl:space-x-reverse">
-        <img
-          src="./coinscope-logo.png"
-          className="h-8 bg-white rounded-lg"
-          alt="Flowbite Logo"
-        />
         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
           Coin
           <span className="text-blue-500">Scope</span>
